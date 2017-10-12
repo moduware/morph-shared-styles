@@ -2,7 +2,8 @@
   "name": "morph-shared-styles",
   "homepage": "https://github.com/nexpaq/polymorph-components",
   "authors": [
-    "Alex Chernov <alexusblack@gmail.com>"
+    "Alex Chernov <alexusblack@gmail.com>",
+    "Clint Pijuan <clintp1@gmail.com"
   ],
   "description": "Shared styles for Polymorph Components",
   "main": "morph-shared-styles.html",

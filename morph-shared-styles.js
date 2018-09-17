@@ -1,4 +1,6 @@
-<dom-module id="morph-shared-styles">
+const $_documentContainer = document.createElement('template');
+
+$_documentContainer.innerHTML = `<dom-module id="morph-shared-styles">
   <template>
     <style>
       :host([platform="ios"]) {
@@ -10,4 +12,6 @@
       }
     </style>
   </template>
-</dom-module>
+</dom-module>`;
+
+document.head.appendChild($_documentContainer.content);

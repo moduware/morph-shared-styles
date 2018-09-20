@@ -1,4 +1,4 @@
-const $_documentContainer = document.createElement('template');
+var $_documentContainer = document.createElement('template');
 
 $_documentContainer.innerHTML = `<dom-module id="morph-shared-styles">
   <template>

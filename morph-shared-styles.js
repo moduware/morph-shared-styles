@@ -1,6 +1,7 @@
 var $_documentContainer = document.createElement('template');
 
-$_documentContainer.innerHTML = `<dom-module id="morph-shared-styles">
+$_documentContainer.innerHTML = /*html*/`
+<dom-module id="morph-shared-styles">
   <template>
     <style>
       :host([platform="ios"]) {
@@ -12,6 +13,7 @@ $_documentContainer.innerHTML = `<dom-module id="morph-shared-styles">
       }
     </style>
   </template>
-</dom-module>`;
+</dom-module>
+`;
 
 document.head.appendChild($_documentContainer.content);

@@ -1,7 +1,7 @@
 {
   "description": "Shared styles for Polymorph Components",
   "homepage": "https://github.com/moduware/polymorph-components",
-  "name": "@polymer/morph-shared-styles",
+  "name": "@moduware/morph-shared-styles",
   "version": "1.0.0",
   "main": "morph-shared-styles.js",
   "contributors": [
